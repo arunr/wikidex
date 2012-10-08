@@ -18,6 +18,10 @@ header {
 	font-size: 20px;
 }
 
+#data {
+	visibility: hidden;
+}
+
 #name {
 	border: solid #6495ED 2px;
 	border-radius: 25px;
@@ -131,15 +135,6 @@ header {
 	border-bottom: double 1px;
 }
 
-
-#data {
-	visibility: hidden;
-}
-
-
-footer {
-	position: absolute;
-}
 
 #content {
 	width: 100%;

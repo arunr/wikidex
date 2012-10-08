@@ -1,5 +1,11 @@
  $(document).ready(function() {
 	 $("#name").blur(getData);
+
+	 $("#name").bind('keypress', function(e) { 
+	 	code = (e.keyCode ? e.keyCode : e.which); 
+	 	if (code === 13) getData(); 
+	 });
+
 	 $("#slide").hide();
  });
 
